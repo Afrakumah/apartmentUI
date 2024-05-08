@@ -1,0 +1,1094 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Oswald&family=Outfit:wght@500&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #353136;
+  height: 2rem;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+.icons nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.icons nav li {
+  list-style: none;
+}
+
+.icons nav ul li a {
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  gap: 10px;
+  color: #fff;
+}
+
+.background_mage {
+  background-size: cover;
+  background-image: linear-gradient(
+      180deg,
+      rgb(219, 218, 218) 0%,
+      rgba(18, 6, 5, 0.40948879551820727) 0%
+    ),
+    url("images/interior1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  /* height: auto; */
+}
+
+.logo_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logo_menu nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.logo_menu nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo_menu span {
+  font-family: "Roboto", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+/* burger display */
+
+.burger {
+  display: none;
+}
+
+.main_page .logo_menu .contact_color li a {
+  color: orangered;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding-left: 17%;
+  margin-top: 4rem;
+}
+
+.Amazing span {
+  font-family: "Roboto", cursive;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.overview_price {
+  font-family: "Roboto", cursive;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.forward {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.form_input input {
+  width: 100%;
+  border-radius: 3px;
+  padding: 0.6rem 1.5rem;
+  color: grey;
+  font-size: 13px;
+  border: 0.5px solid rgb(179, 177, 177);
+}
+
+.form_input {
+  position: relative;
+  width: 35%;
+  padding-right: 3rem;
+}
+
+.form_input i {
+  position: absolute;
+  top: 12px;
+  padding-left: 6px;
+  color: grey;
+}
+
+.forward button {
+  background-color: transparent;
+  border: 0.5px solid rgb(179, 177, 177);
+  border-radius: 3px;
+  padding: 0.5rem 0.5rem;
+  font-size: 12px;
+}
+
+.forward .search {
+  background-color: orangered;
+  color: #fff;
+  border: 0;
+}
+
+/* find your home section */
+.exhibition {
+  padding-left: 18%;
+  margin-top: 0.5rem;
+  background-color: rgb(238, 237, 237);
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.exhibition_header span {
+  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-weight: 400;
+}
+
+.exhition_btns {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 22%;
+  gap: 6px;
+  margin-top: 15px;
+  /* justify-content: center;
+padding-left: 45%; */
+}
+
+.exhition_btns button {
+  border: 1px solid orangered;
+  border-radius: 3px;
+  color: orangered;
+  font-size: 10px;
+  padding: 4px 4px;
+  background: transparent;
+}
+
+.first_exhibition div img {
+  height: 160px;
+  width: 180px;
+  border-radius: 3px;
+  background: linear-gradient(
+    180deg,
+    rgb(219, 218, 218) 0%,
+    rgba(18, 6, 5, 0.40948879551820727) 0%
+  );
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+}
+
+.firstimage_about li {
+  list-style: none;
+}
+
+.firstimage_about div {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.all_exhibitions {
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+
+.first_exhibition {
+  position: relative;
+}
+
+.positions p {
+  position: absolute;
+  color: #fff;
+  top: 130px;
+  left: 5px;
+  font-weight: 400;
+}
+
+.positions .sales {
+  position: absolute;
+  top: 15px;
+  background-color: #535153;
+  color: #fff;
+  left: 110px;
+  font-size: 12px;
+}
+
+.firstimage_about {
+  font-size: 13px;
+  margin-top: 0.5rem;
+}
+
+.firstimage_about p {
+  text-align: center;
+}
+
+/* meet team section starts here */
+.meet_team {
+  padding-left: 18%;
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.team span {
+  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-weight: 500;
+}
+
+.all_teams {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  /* position: relative; */
+  justify-content: center;
+  padding-right: 14rem;
+}
+
+.team_one {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.all_teams img {
+  width: 13rem;
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.img {
+  position: relative;
+  display: inline-block;
+}
+
+.faces::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, transparent, black);
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.team_one .names {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2rem;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* new york city real estate starts here */
+.NewYork {
+  padding-left: 18%;
+  background-color: rgb(238, 237, 237);
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.NYC_estate span {
+  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-weight: 500;
+}
+
+/* image size */
+.first_estate img {
+  height: 200px;
+  width: 250px;
+  background: linear-gradient(
+    360deg,
+    rgb(219, 218, 218) 0%,
+    rgba(18, 6, 5, 0.40948879551820727) 0%
+  );
+  border-radius: 3px;
+
+  opacity: 0.9;
+}
+
+.estate_label {
+  list-style: none;
+  display: flex;
+  font-size: 10px;
+}
+
+.estate_label :first-of-type {
+  border-radius: 2px;
+  background-color: green;
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.estate_label :last-of-type {
+  background-color: #353136;
+  border-radius: 2px;
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  left: 185px;
+}
+
+.first_estate {
+  position: relative;
+}
+
+.contemporary_labels li {
+  list-style: none;
+  padding: 0 5px;
+}
+
+.contemporary_labels {
+  display: flex;
+  gap: 3rem;
+  font-size: 15px;
+  padding-top: 2px;
+}
+
+.contemporary_labels p {
+  color: orangered;
+}
+
+.contemporary_labels .tttt {
+  display: flex;
+}
+
+.one_container {
+  padding-bottom: 4rem;
+}
+
+.contemporary {
+  position: absolute;
+  padding: 12px 8px;
+  background-color: floralwhite;
+}
+
+.All_estates {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  column-gap: 18px;
+  row-gap: 15px;
+}
+
+.NYC_estate {
+  padding-bottom: 2rem;
+}
+
+.All_estates .load_more {
+  /* display: flex; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  /* justify-content: center; */
+
+  position: absolute;
+  left: 19rem;
+  bottom: -4rem;
+
+  padding: 0.4rem 3rem;
+
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* our services */
+.our_services {
+  background-size: cover;
+  background-image: linear-gradient(
+      360deg,
+      rgba(124, 152, 164, 1) 0%,
+      rgba(86, 136, 157, 0.6867997198879552) 0%
+    ),
+    url("images/couch.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh;
+  padding: 4rem 0;
+}
+
+.service_details {
+  text-align: center;
+  color: #fff;
+  /* font-weight: 400; */
+}
+
+.service_details span {
+  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-weight: 400;
+}
+
+.first_box {
+  background-color: #fff;
+  height: 270px;
+  width: 280px;
+  text-align: center;
+}
+
+.first_box i {
+  padding: 2.5rem 0;
+  color: orangered;
+  font-size: 2rem;
+}
+
+.boxes .first_box p {
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+.first_box button {
+  background: none;
+  border: none;
+  color: orangered;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-top: 2rem;
+}
+
+/* from our blog  */
+.blogs {
+  padding: 4rem 0;
+  padding-left: 18%;
+  background-color: rgb(238, 237, 237);
+}
+
+.blog_details span {
+  font-size: 1.5rem;
+  font-family: "Roboto", cursive;
+  font-weight: 500;
+}
+
+.first_blog img {
+  /* height: 160px;
+  width: 180px; */
+  height: 180px;
+  width: 200px;
+  border-radius: 3px;
+  opacity: 0.8;
+
+  /* border-top: 3px solid floralwhite;
+  border-right: 3px solid floralwhite;
+  border-left: 3px solid floralwhite;
+
+   border-top-left-radius: 1px ;
+  border-top-right-radius: 1px;  */
+}
+
+.first_blog {
+  background-color: #fff;
+  border-top: 3px solid floralwhite;
+  border-right: 3px solid floralwhite;
+  border-left: 3px solid floralwhite;
+
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+}
+
+.first_blog .calendar {
+  display: flex;
+  font-size: 12px;
+  gap: 3px;
+  padding: 5px 0;
+}
+
+.first_blog .calendar li {
+  list-style: none;
+}
+
+.first_blog .calendar li i {
+  padding: 0 3px;
+}
+
+.first_blog button {
+  background: none;
+  border: none;
+  color: orangered;
+  padding: 10px 0;
+  /* margin-bottom: 10px; */
+}
+
+.first_blog p {
+  font-size: 12px;
+  /* background-color: #fff; */
+}
+.first_blog div p {
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+.all_blogs {
+  display: flex;
+  padding-top: 2rem;
+  gap: 1.5rem;
+}
+
+.first_blog .user {
+  padding-top: 5px;
+  border-top: 1px solid #adacad;
+  list-style: none;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* footer starts here */
+.about_site p {
+  font-size: 12px;
+}
+
+.about_site li {
+  font-family: "Roboto", cursive;
+  font-size: 1rem;
+  list-style: none;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.about_site button {
+  border: none;
+  background: none;
+  color: aliceblue;
+  padding-top: 1rem;
+}
+
+.first_footer {
+  display: flex;
+  justify-content: center;
+  background-color: #353136;
+  padding: 4rem 0;
+  padding-right: 10%;
+  gap: 4rem;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.seconds {
+  padding-left: 3rem;
+}
+.seconds li {
+  list-style: none;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.seconds button {
+  border: none;
+  background: none;
+  color: aliceblue;
+  padding-top: 1rem;
+}
+
+.thirds li {
+  list-style: none;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.thirds button {
+  border: none;
+  background: none;
+  color: aliceblue;
+  padding-top: 1rem;
+}
+
+.thirds .angles {
+  padding-left: 2rem;
+}
+
+.second_footer {
+  background-color: black;
+  color: aliceblue;
+}
+.tired {
+  display: flex;
+
+  justify-content: space-between;
+  padding-left: 12%;
+  padding-top: 2rem;
+  font-size: 15px;
+
+  padding-right: 1.5rem;
+}
+
+.second_footer li {
+  list-style: none;
+}
+
+.second_footer .privacy {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.second_icons nav ul {
+  display: flex;
+  gap: 5px;
+}
+
+.second_icons nav li {
+  list-style: none;
+}
+
+.second_icons nav ul li a {
+  color: aliceblue;
+}
+
+.second_footer .fa-angle-up {
+  border-radius: 3px;
+  background-color: orange;
+  padding: 5px;
+}
+
+.angles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* last footer starts here */
+.last_footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+  gap: 20px;
+}
+
+.last_icons {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+.last_footer span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.last i {
+  background-color: blue;
+  color: aliceblue;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  font-size: 1.5rem;
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* media query starts here */
+/* extra small devices */
+/* media query starts here */
+/* extra small devices */
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
+  .logo_menu {
+    justify-content: space-around;
+  }
+
+  .logo_menu nav ul {
+    display: none;
+  }
+
+  /* hamburger menu */
+  .burger::before,
+  .burger::after,
+  .burger input {
+    display: block;
+
+    content: "";
+
+    width: 50px;
+
+    height: 8px;
+
+    background-color: #fff;
+
+    transform-origin: left center;
+
+    transition: all 0.25s ease-in-out;
+
+    margin-right: 6rem;
+  }
+
+  /* rotate to 45 deg when the input inside the burger has a checkbox which is checked */
+
+  .burger:has(input:checked)::before {
+    rotate: 45deg;
+
+    width: 40px;
+  }
+
+  .burger:has(input:checked)::after {
+    rotate: -45deg;
+
+    width: 40px;
+  }
+
+  .burger:has(input:checked) + nav ul {
+    display: block;
+
+    position: absolute;
+
+    top: 2rem;
+
+    /* background-color: #7b5656; */
+    background-color: #535153;
+    left: 0;
+
+    right: 0;
+
+    text-align: center;
+
+    padding: 1rem 0;
+    opacity: 1;
+  }
+
+  .burger:has(input:checked) + nav ul li a {
+    /* border-bottom: 1px solid white;  for the lines in the nav*/
+    margin-top: 0.5rem;
+    display: block;
+  }
+
+  .burger {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+
+    position: absolute;
+
+    right: 10px;
+  }
+
+  .burger input:checked {
+    width: 0;
+
+    opacity: 0;
+  }
+
+  .burger input {
+    appearance: none;
+  }
+
+  .main_page {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* enter keyword area */
+  .forward {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* overview starts here */
+  .overview {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    /* padding-left: 17%; */
+    margin-top: 1rem;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .Amazing span {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .overview_price {
+    margin-top: 20px;
+    padding-bottom: 1rem;
+  }
+
+  .exhibition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .all_exhibitions {
+    padding-right: 4rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exhition_btns {
+    margin-top: 20px;
+    padding-right: 4rem;
+  }
+
+  /* meet team starts here */
+  .all_teams {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 4rem;
+  }
+
+  /* newyork starts here */
+  .All_estates {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .first_estate {
+    padding-left: 0.5rem;
+  }
+
+  .contemporary {
+    margin-left: 7px;
+  }
+
+  .All_estates .load_more {
+    left: auto;
+    margin-left: 40px;
+  }
+
+  /* our services */
+
+  .our_services {
+    height: auto;
+  }
+
+  .boxes {
+    flex-direction: column;
+    padding-left: 3.5rem;
+  }
+
+  /* our blogs */
+  .all_blogs {
+    flex-direction: column;
+    padding-left: 2.5rem;
+  }
+
+  /* footer */
+  .first_footer {
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30px;
+  }
+
+  .tired {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .second_footer .privacy {
+    padding-right: 4.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .background_mage {
+    height: auto;
+  }
+}
+
+/* large devices media query starts here */
+/* large devices */
+/* media query starts here */
+/* large devices */
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+  .logo_menu nav ul {
+    display: none;
+    transition: all 1s ease-in;
+    opacity: none;
+  }
+
+  .header {
+    padding: 1rem;
+  }
+
+  /* hamburger menu */
+  .burger::before,
+  .burger::after,
+  .burger input {
+    display: block;
+
+    content: "";
+
+    width: 50px;
+
+    height: 8px;
+
+    background-color: #fff;
+
+    transform-origin: left center;
+
+    transition: all 0.25s ease-in-out;
+
+    margin-right: 6rem;
+  }
+
+  /* rotate to 45 deg when the input inside the burger has a checkbox which is checked */
+
+  .burger:has(input:checked)::before {
+    rotate: 45deg;
+
+    width: 40px;
+  }
+
+  .burger:has(input:checked)::after {
+    rotate: -45deg;
+
+    width: 40px;
+  }
+
+  .burger:has(input:checked) + nav ul {
+    display: block;
+
+    position: absolute;
+
+    top: 2rem;
+
+    /* background-color: #7b5656; */
+    background-color: #535153;
+    left: 0;
+
+    right: 0;
+
+    text-align: center;
+
+    padding: 1rem 0;
+    opacity: 1;
+  }
+
+  .burger:has(input:checked) + nav ul li a {
+    /* border-bottom: 1px solid white;  for the lines in the nav*/
+    margin-top: 0.5rem;
+    display: block;
+  }
+
+  .burger {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+
+    position: absolute;
+
+    right: 10px;
+  }
+
+  .burger input:checked {
+    width: 0;
+
+    opacity: 0;
+  }
+
+  .burger input {
+    appearance: none;
+  }
+
+  .main_page {
+    position: relative;
+    z-index: 1;
+  }
+
+  .overview {
+    padding-left: 4rem;
+  }
+
+  .logo_menu span {
+    padding-right: 300px;
+    /* padding-right: 4rem; */
+  }
+
+  .all_exhibitions {
+    flex-wrap: wrap;
+    padding-left: 12px;
+  }
+
+  /* .exhition_btns {
+    padding-right: 1rem;
+  } */
+
+  .all_teams {
+    flex-wrap: wrap;
+    padding-left: 1.2rem;
+  }
+
+  .All_estates {
+    display: flex;
+    flex-wrap: wrap;
+    right: 3rem;
+  }
+
+  .All_estates .load_more {
+    left: auto;
+  }
+
+  .our_services {
+    height: auto;
+  }
+
+  .all_blogs {
+    flex-wrap: wrap;
+    padding-left: 1rem;
+  }
+
+  .first_footer {
+    padding-left: 15px;
+  }
+
+  .tired {
+    padding-left: 0;
+    margin-left: 15px;
+  }
+
+  .background_mage {
+    height: auto;
+  }
+}
